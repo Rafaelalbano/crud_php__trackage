@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tela_cadastro {
+    width: 30%;
+    float: left;
+}
+
+#tela_listagem {
+    width: 60%;
+    float: right;
+}
+
+h3 {
+    font-size: 24px !important;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF !important;
+}
+
+h4 {
+    margin-left: 5px;
+    font-size: 14px !important;
+}
+
+hr {
+    height: 5px;
+    border: none;
+    background-color: #FFF;
+}
+
+label {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 12pt !important;
+}
+
+
+label,
+input {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    font-size: 13pt;
+    width: 100%;
+}
+
+form {
+    width: 500px;
+    background-color: #54D959;
+    padding: 30px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 20px 0;
+    align-content: center;
+    -webkit-transition: .1s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    border-radius: 0px 20px;
+}
+
+table {
+    margin: 30px auto;
+}
+
+
+th {
+    text-align: left;
+}
+
+.buttons {
+    float: right;
+}
+
+.logo {
+    width: 100px;
+    margin: 15px auto;
+    display: flex;
+}
